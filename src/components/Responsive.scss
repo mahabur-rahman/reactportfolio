@@ -1,0 +1,80 @@
+@media(max-width: 1199px) {
+    #card {
+        h5 {
+            font-size: 17px;
+        }
+    }
+    #blog {
+        h5 {
+            font-size: 16px;
+        }
+    }
+    #contact {
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    #common,
+    #about,
+    #price,
+    #contact,
+    #blog {
+        padding: 120px 0;
+    }
+    #testimonial {
+        padding: 80px 0;
+    }
+    #experience {
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    #brand {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .brand-img {
+            width: 100%;
+            padding: 16px 0;
+        }
+    }
+    #footerTop {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width:767px) {
+    #banner {
+        height: 115vh;
+    }
+    #testimonial .testimonial-right {
+        margin: 20px 0;
+    }
+}
+
+@media(max-width: 575px) {
+    #about .about-content p {
+        font-size: 12px;
+    }
+    #testimonial .carousel-control-next svg {
+        bottom: 5%;
+    }
+}
+
+@media(max-width: 360px) {
+    #banner {
+        height: 140vh;
+    }
+}
+
+@media(max-width: 322px) {
+    #banner .btn-smart {
+        margin-left: 10px;
+    }
+    #footerTop {
+        .social-link li {
+            margin: 0 5px;
+        }
+    }
+}
